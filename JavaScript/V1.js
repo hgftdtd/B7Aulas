@@ -1,7 +1,10 @@
-var nome = prompt('Qual o seu nome? ')
-var Sobrenome =prompt ('Qual o seu sobrenome? ')
-var idade = prompt ('Qual a sua idade? ')
+let personagem = {
+    nome:'ricardo',
+    idade: 20,
+    carros: [
+        {modelo: 'fiat', cor:'preto'},
+        {modelo: 'ferrari', cor:'azul'}
+    ]
+}
 
-    let dados =[nome, Sobrenome, idade]
-
-console.log(dados)
+console.log(personagem.carros[0].cor);
