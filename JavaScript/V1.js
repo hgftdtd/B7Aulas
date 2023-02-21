@@ -1,11 +1,7 @@
-function addSquares(a,b){
-    function square(x) {
-        return x * x;
-    }
-    
-    let sqrA = square(a)
-    let sqrB = square(b)
-    return sqrA  + sqrB;
-}
+var nome = prompt('Qual o seu nome? ')
+var Sobrenome =prompt ('Qual o seu sobrenome? ')
+var idade = prompt ('Qual a sua idade? ')
 
-console.log( addSquares(5,2))
+    let dados =[nome, Sobrenome, idade]
+
+console.log(dados)
