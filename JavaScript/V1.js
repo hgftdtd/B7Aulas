@@ -1,12 +1,11 @@
-let count = 0;
-
-function add() {
-    let count = 0;
-    count++;
+function addSquares(a,b){
+    function square(x) {
+        return x * x;
+    }
+    
+    let sqrA = square(a)
+    let sqrB = square(b)
+    return sqrA  + sqrB;
 }
 
-
-add();
-add();
-
-console.log(count);
+console.log( addSquares(5,2))
